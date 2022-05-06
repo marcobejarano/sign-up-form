@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'norsebold';
+  src: url('Norse-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.norse {
+  font-family: 'norsebold', sans-serif;
+  font-size: 80px;
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  display: block;
+  color: white;
+  bottom: 0;
+  left: 25%;
+  font-size: 15px;
+}
+
+a {
+  color: white;
+}
+
+.first-column {
+  position: relative;
+  background-image: url("halie-west.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 40%;
+}
+
+.sidebar {
+  position: absolute;
+  background-color: #0000005d;
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar img {
+  height: 110px;
+  margin: 15px 0;
+}
+
+body {
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.second-column {
+  position: relative;
+  background-color: #f7f8fa;
+  width: 60%;
+  float: right;
+}
+
+.top-text {
+  margin: 100px 30px 10px 30px;
+}
+
+.info {
+  background-color: white;
+  padding: 20px 35px 40px 30px;
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formrow {
+  display: flex;
+}
+
+.form-element {
+  margin: 12px 50px 0 0;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 6px;
+  margin: 20px 500px 0 30px;
+  padding: 10px 20px 10px 20px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+
+.bottom-text {
+  margin: 20px 30px;
+}
+
+#account {
+  margin: 20px 0 0 30px;
+  font-size: 14px;
+}
+
+.login {
+  color: #596D48;
+  text-decoration: none;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: 1px solid #E5E7EB;
+  padding: 3px 5px;
+}
+
+input:valid {
+  border: 1px solid blue;
+  background-color: rgb(188, 200, 204);
+}
+
+#validation-error {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}

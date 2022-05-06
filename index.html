@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Sign-Up Form</title>
+</head>
+<body>
+  <div class="first-column">
+    <div class="sidebar">
+      <img src="odin-lined.png" alt="A bunch of leaves">
+      <p class="norse">Odin</p>
+    </div>
+    <div class="footer">Photo by <a href="#">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+  </div>
+  <div class="second-column">
+    <div class="top-text">
+      <p>This is not a real online service! You know you need something</p>
+      <p>in your life to help you realize your deepest dreams.</p>
+      <p>Sign up <em>now</em> to get started.</p>
+      <br>
+      <p>You <em>know</em> you want to.</p>
+    </div>
+    <div class="middle-text">
+      <form action="#" method="post">
+        <div class="info">
+          <h3>Let's do this</h3>
+          <div class="formrow">
+            <div class="form-element">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" placeholder="Thor" required>
+            </div>
+            <div class="form-element">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" placeholder="Odinson" required>
+            </div>
+          </div>
+          <div class="formrow">
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+            </div>
+            <div class="form-element">
+              <label for="phone-number">Phone Number</label>
+              <input type="tel" id="phone-number" name="phone" pattern="[0-9]{4}-[0-9]{2}-[0-9]{3}" required>
+            </div>
+          </div>
+          <div class="formrow">
+            <div class="form-element">
+              <label for="password">Password</label>
+              <input type="password" id="password" required>
+              <p id="validation-error"></p>
+            </div>
+            <div class="form-element">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" required>
+            </div>
+          </div>
+        </div>
+        <div class="submit">
+          <button type="submit" id="button">
+            Create Account
+          </button>
+        </div>
+      </form>
+    </div>
+    <p id="account">Already have an account? <a href="#" class="login">Log in</a></p>
+  </div>
+</body>
+</html>
